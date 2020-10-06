@@ -1,0 +1,57 @@
+h1 {
+    color: blueviolet; 
+    margin-left: 370px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid {
+    background-color : rgb(81, 3, 88);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.grid img{
+    border: solid;
+    border-radius: 50px;
+    border-color : #f23456;
+}
+
+.item {
+    margin-right: 90px;
+    padding-left: 80px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited{
+    color: blue;
+}
+
+.item{
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 1px;    
+    left: 65%;
+    color: rgb(237, 253, 9);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 100;
+}
